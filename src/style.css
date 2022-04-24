@@ -1,0 +1,30 @@
+header{
+  position: relative;
+  position: fixed;
+}
+#nav-bar {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+#header-img {
+  object-fit: fill;
+  height: 20rem;
+  width: 100%;
+}
+h3{
+  margin: 4rem;
+}
+ul {
+  display: flex;
+}
+@media (max-width: 650px) {
+ nav ul {
+    flex-direction: column;
+  }
+}
